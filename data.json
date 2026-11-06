@@ -1,0 +1,1060 @@
+[
+ {
+  "id": "tabletop",
+  "family": "Tabletop",
+  "title": "Move to a spot",
+  "description": "The robot picks an object from a table or counter and sets it down on a free spot of the same surface.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/tabletop/00.mp4",
+    "caption": "move the apple to the right on the counter",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/tabletop/00_robot.mp4"
+   },
+   {
+    "src": "v/tabletop/01.mp4",
+    "caption": "move the vase to the right on the dining table",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/tabletop/01_robot.mp4"
+   },
+   {
+    "src": "v/tabletop/02.mp4",
+    "caption": "move the bottle to the right on the counter",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/tabletop/02_robot.mp4"
+   },
+   {
+    "src": "v/tabletop/03.mp4",
+    "caption": "move the bottle to the right on the counter",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/tabletop/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "tabletop-containers",
+  "family": "Tabletop",
+  "title": "Place in a container",
+  "description": "The robot picks an object from a table and places it into a container (pot, bowl, ...) standing on the same table.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/tabletop-containers/00.mp4",
+    "caption": "put the mug in the pot",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/tabletop-containers/00_robot.mp4"
+   },
+   {
+    "src": "v/tabletop-containers/01.mp4",
+    "caption": "put the mug in the pot",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/tabletop-containers/01_robot.mp4"
+   },
+   {
+    "src": "v/tabletop-containers/02.mp4",
+    "caption": "put the shaker in the box",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/tabletop-containers/02_robot.mp4"
+   },
+   {
+    "src": "v/tabletop-containers/03.mp4",
+    "caption": "put the candle in the tray",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/tabletop-containers/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "walk",
+  "family": "Walk and deliver",
+  "title": "Walk and deliver",
+  "description": "The robot picks an object, walks to another piece of furniture in the same room and places it there.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/walk/00.mp4",
+    "caption": "bring the statue to the tv stand",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk/00_robot.mp4"
+   },
+   {
+    "src": "v/walk/01.mp4",
+    "caption": "bring the vase to the dresser",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk/01_robot.mp4"
+   },
+   {
+    "src": "v/walk/02.mp4",
+    "caption": "bring the bottle to the dining table",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk/02_robot.mp4"
+   },
+   {
+    "src": "v/walk/03.mp4",
+    "caption": "bring the plunger to the dresser",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "walk-containers",
+  "family": "Walk and deliver",
+  "title": "Walk and deliver into containers",
+  "description": "The robot picks an object, walks to another piece of furniture in the same room and puts it into a container standing there.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/walk-containers/00.mp4",
+    "caption": "put the shaker in the clay dish",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-containers/00_robot.mp4"
+   },
+   {
+    "src": "v/walk-containers/01.mp4",
+    "caption": "put the bottle in the pot",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-containers/01_robot.mp4"
+   },
+   {
+    "src": "v/walk-containers/02.mp4",
+    "caption": "put the candle in the box",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-containers/02_robot.mp4"
+   },
+   {
+    "src": "v/walk-containers/03.mp4",
+    "caption": "put the bowl in the pot",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-containers/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "walk-perturb",
+  "family": "Walk and deliver",
+  "title": "Walk and deliver with perturbations",
+  "description": "Walk and deliver where each episode is disturbed (a push on the pelvis and a wrong stopping point before the grasp) and the robot recovers and finishes the task.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/walk-perturb/00.mp4",
+    "caption": "bring the bottle to the counter",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-perturb/00_robot.mp4"
+   },
+   {
+    "src": "v/walk-perturb/01.mp4",
+    "caption": "bring the plunger to the dresser",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-perturb/01_robot.mp4"
+   },
+   {
+    "src": "v/walk-perturb/02.mp4",
+    "caption": "bring the statue to the dining table",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-perturb/02_robot.mp4"
+   },
+   {
+    "src": "v/walk-perturb/03.mp4",
+    "caption": "bring the vase to the dresser",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-perturb/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "walk-clutter",
+  "family": "Walk and deliver",
+  "title": "Walk and deliver in clutter",
+  "description": "Walk and deliver in a cluttered house: the object is named by a referring expression and the clutter on the floor and furniture has to be avoided.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/walk-clutter/00.mp4",
+    "caption": "bring the mug to the dining table",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-clutter/00_robot.mp4"
+   },
+   {
+    "src": "v/walk-clutter/01.mp4",
+    "caption": "bring the turquoise bottle to the dining table",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-clutter/01_robot.mp4"
+   },
+   {
+    "src": "v/walk-clutter/02.mp4",
+    "caption": "bring the bottle on the dresser to the dresser",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-clutter/02_robot.mp4"
+   },
+   {
+    "src": "v/walk-clutter/03.mp4",
+    "caption": "bring the mug to the side table",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/walk-clutter/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "floor-deliver",
+  "family": "Floor pick",
+  "title": "Floor pick and deliver",
+  "description": "The robot picks an object from the floor, stands up, walks to a receptacle and places it (best effort: a hard task).",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/floor-deliver/00.mp4",
+    "caption": "bring the bottle to the side table",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/floor-deliver/00_robot.mp4"
+   },
+   {
+    "src": "v/floor-deliver/01.mp4",
+    "caption": "bring the bottle to the counter",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/floor-deliver/01_robot.mp4"
+   },
+   {
+    "src": "v/floor-deliver/02.mp4",
+    "caption": "bring the cup to the dresser",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/floor-deliver/02_robot.mp4"
+   },
+   {
+    "src": "v/floor-deliver/03.mp4",
+    "caption": "bring the towel to the dining table",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/floor-deliver/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "floor-deliver-clutter",
+  "family": "Floor pick",
+  "title": "Floor pick and deliver in clutter",
+  "description": "Floor pick and deliver on a cluttered floor (best effort: a hard task).",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/floor-deliver-clutter/00.mp4",
+    "caption": "bring the cup on the floor to the dining table",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/floor-deliver-clutter/00_robot.mp4"
+   },
+   {
+    "src": "v/floor-deliver-clutter/01.mp4",
+    "caption": "bring the paper towel to the counter",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/floor-deliver-clutter/01_robot.mp4"
+   },
+   {
+    "src": "v/floor-deliver-clutter/02.mp4",
+    "caption": "bring the transparent soap bottle to the tv stand",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/floor-deliver-clutter/02_robot.mp4"
+   },
+   {
+    "src": "v/floor-deliver-clutter/03.mp4",
+    "caption": "bring the purple bottle to the counter",
+    "meta": {
+     "edition": "GR00T"
+    },
+    "robot": "v/floor-deliver-clutter/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "floor-open",
+  "family": "Floor pick",
+  "title": "Floor pick, open floor",
+  "description": "The robot picks an object lying on open floor, away from walls.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/floor-open/00.mp4",
+    "caption": "pick up the cup from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-open/00_robot.mp4"
+   },
+   {
+    "src": "v/floor-open/01.mp4",
+    "caption": "pick up the cup from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-open/01_robot.mp4"
+   },
+   {
+    "src": "v/floor-open/02.mp4",
+    "caption": "pick up the towel from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-open/02_robot.mp4"
+   },
+   {
+    "src": "v/floor-open/03.mp4",
+    "caption": "pick up the cup from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-open/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "floor-corner",
+  "family": "Floor pick",
+  "title": "Floor pick, in a corner",
+  "description": "The robot picks an object lying on the floor in a corner of a room.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/floor-corner/00.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-corner/00_robot.mp4"
+   },
+   {
+    "src": "v/floor-corner/01.mp4",
+    "caption": "pick up the towel from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-corner/01_robot.mp4"
+   },
+   {
+    "src": "v/floor-corner/02.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-corner/02_robot.mp4"
+   },
+   {
+    "src": "v/floor-corner/03.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-corner/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "floor-near-wall",
+  "family": "Floor pick",
+  "title": "Floor pick, near a wall",
+  "description": "The robot picks an object lying on the floor close to a wall, so the arm and body have little room.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/floor-near-wall/00.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-near-wall/00_robot.mp4"
+   },
+   {
+    "src": "v/floor-near-wall/01.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-near-wall/01_robot.mp4"
+   },
+   {
+    "src": "v/floor-near-wall/02.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-near-wall/02_robot.mp4"
+   },
+   {
+    "src": "v/floor-near-wall/03.mp4",
+    "caption": "pick up the cup from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-near-wall/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "floor-recovery",
+  "family": "Floor pick",
+  "title": "Floor pick, recovery data",
+  "description": "Recovery data: before the squat the robot stops at a wrong spot (stopping error) and re-approaches; in about half of the episodes the first grasp is forced to miss and the robot opens the hand and regrasps.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/floor-recovery/00.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-recovery/00_robot.mp4"
+   },
+   {
+    "src": "v/floor-recovery/01.mp4",
+    "caption": "pick up the towel from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-recovery/01_robot.mp4"
+   },
+   {
+    "src": "v/floor-recovery/02.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-recovery/02_robot.mp4"
+   },
+   {
+    "src": "v/floor-recovery/03.mp4",
+    "caption": "pick up the towel from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-recovery/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "floor-clutter",
+  "family": "Floor pick",
+  "title": "Floor pick in clutter",
+  "description": "The robot picks an object lying on a cluttered floor; other objects lie around it and the stance.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/floor-clutter/00.mp4",
+    "caption": "pick up the transparent cup from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-clutter/00_robot.mp4"
+   },
+   {
+    "src": "v/floor-clutter/01.mp4",
+    "caption": "pick up the paper towel from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-clutter/01_robot.mp4"
+   },
+   {
+    "src": "v/floor-clutter/02.mp4",
+    "caption": "pick up the paper towel from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-clutter/02_robot.mp4"
+   },
+   {
+    "src": "v/floor-clutter/03.mp4",
+    "caption": "pick up the bottle on the floor from the floor",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/floor-clutter/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "fetch",
+  "family": "Fetch",
+  "title": "Fetch",
+  "description": "The robot walks to an object on a table, shelf or counter and lifts it clear of the surface.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/fetch/00.mp4",
+    "caption": "pick up the potato.",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/fetch/00_robot.mp4"
+   },
+   {
+    "src": "v/fetch/01.mp4",
+    "caption": "pick up the candle.",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/fetch/01_robot.mp4"
+   },
+   {
+    "src": "v/fetch/02.mp4",
+    "caption": "pick up the apple.",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/fetch/02_robot.mp4"
+   },
+   {
+    "src": "v/fetch/03.mp4",
+    "caption": "pick up the mug.",
+    "meta": {
+     "edition": "shared"
+    },
+    "robot": "v/fetch/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "place-on-surface",
+  "family": "Tabletop",
+  "title": "Place on a surface",
+  "description": "The robot sets the object on a flat surface: a plate, tray, dish or a closed box. Tabletop only, no walking.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/place-on-surface/00.mp4",
+    "caption": "put the bottle on the plate",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/00_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/01.mp4",
+    "caption": "put the bottle on the tray",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/01_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/02.mp4",
+    "caption": "put the shaker on the box",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/02_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/03.mp4",
+    "caption": "put the bottle on the dish",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/03_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/04.mp4",
+    "caption": "put the apple on the plate",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/04_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/05.mp4",
+    "caption": "put the bottle on the tray",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/05_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/06.mp4",
+    "caption": "put the shaker in the box",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/06_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/07.mp4",
+    "caption": "put the bottle on the plate",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/07_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/08.mp4",
+    "caption": "put the towel on the tray",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/08_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/09.mp4",
+    "caption": "put the bottle on the plate",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/09_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/10.mp4",
+    "caption": "put the bottle on the tray",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/10_robot.mp4"
+   },
+   {
+    "src": "v/place-on-surface/11.mp4",
+    "caption": "put the bottle on the plate",
+    "meta": {
+     "edition": "new render",
+     "chair": null
+    },
+    "robot": "v/place-on-surface/11_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "push-chair",
+  "family": "Chairs",
+  "title": "Push the chair to the table",
+  "status": "ready",
+  "description": "Two Dex3 hands. The robot walks up behind an office chair, puts both palms on the backrest and pushes it to the edge of a table or desk, then steps back.",
+  "clips": [
+   {
+    "src": "v/push-chair/00.mp4",
+    "caption": "push the office chair to the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "volmar"
+    },
+    "robot": "v/push-chair/00_robot.mp4"
+   },
+   {
+    "src": "v/push-chair/01.mp4",
+    "caption": "push the office chair to the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "sevnning"
+    },
+    "robot": "v/push-chair/01_robot.mp4"
+   },
+   {
+    "src": "v/push-chair/02.mp4",
+    "caption": "push the office chair to the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "allak"
+    },
+    "robot": "v/push-chair/02_robot.mp4"
+   },
+   {
+    "src": "v/push-chair/03.mp4",
+    "caption": "push the office chair to the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "jules"
+    },
+    "robot": "v/push-chair/03_robot.mp4"
+   },
+   {
+    "src": "v/push-chair/04.mp4",
+    "caption": "push the office chair to the desk",
+    "meta": {
+     "edition": "new render",
+     "chair": "volmar"
+    },
+    "robot": "v/push-chair/04_robot.mp4"
+   },
+   {
+    "src": "v/push-chair/05.mp4",
+    "caption": "push the office chair to the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "sevnning"
+    },
+    "robot": "v/push-chair/05_robot.mp4"
+   },
+   {
+    "src": "v/push-chair/06.mp4",
+    "caption": "push the office chair to the desk",
+    "meta": {
+     "edition": "new render",
+     "chair": "allak"
+    },
+    "robot": "v/push-chair/06_robot.mp4"
+   },
+   {
+    "src": "v/push-chair/07.mp4",
+    "caption": "push the office chair to the desk",
+    "meta": {
+     "edition": "new render",
+     "chair": "jules"
+    },
+    "robot": "v/push-chair/07_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "tuck-chair",
+  "family": "Chairs",
+  "title": "Tuck the chair under the table",
+  "status": "ready",
+  "description": "The same push, but the chair ends with its seat 15 to 25 cm under the table top.",
+  "clips": [
+   {
+    "src": "v/tuck-chair/00.mp4",
+    "caption": "tuck the office chair under the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "volmar"
+    },
+    "robot": "v/tuck-chair/00_robot.mp4"
+   },
+   {
+    "src": "v/tuck-chair/01.mp4",
+    "caption": "tuck the office chair under the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "jules"
+    },
+    "robot": "v/tuck-chair/01_robot.mp4"
+   },
+   {
+    "src": "v/tuck-chair/02.mp4",
+    "caption": "tuck the chair under the desk",
+    "meta": {
+     "edition": "new render",
+     "chair": "Chair_223_1"
+    },
+    "robot": "v/tuck-chair/02_robot.mp4"
+   },
+   {
+    "src": "v/tuck-chair/03.mp4",
+    "caption": "tuck the office chair under the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "volmar"
+    },
+    "robot": "v/tuck-chair/03_robot.mp4"
+   },
+   {
+    "src": "v/tuck-chair/04.mp4",
+    "caption": "tuck the office chair under the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "jules"
+    },
+    "robot": "v/tuck-chair/04_robot.mp4"
+   },
+   {
+    "src": "v/tuck-chair/05.mp4",
+    "caption": "tuck the chair under the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "Chair_223_1"
+    },
+    "robot": "v/tuck-chair/05_robot.mp4"
+   },
+   {
+    "src": "v/tuck-chair/06.mp4",
+    "caption": "tuck the office chair under the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "volmar"
+    },
+    "robot": "v/tuck-chair/06_robot.mp4"
+   },
+   {
+    "src": "v/tuck-chair/07.mp4",
+    "caption": "tuck the office chair under the table",
+    "meta": {
+     "edition": "new render",
+     "chair": "jules"
+    },
+    "robot": "v/tuck-chair/07_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "open_drawer_dex3",
+  "family": "Opening",
+  "title": "Open a drawer",
+  "description": "Pull a drawer open by its handle.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/open_drawer_dex3/00.mp4",
+    "caption": "pull out the drawer",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_drawer_dex3/00_robot.mp4"
+   },
+   {
+    "src": "v/open_drawer_dex3/01.mp4",
+    "caption": "pull out the drawer",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_drawer_dex3/01_robot.mp4"
+   },
+   {
+    "src": "v/open_drawer_dex3/02.mp4",
+    "caption": "pull out the drawer",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_drawer_dex3/02_robot.mp4"
+   },
+   {
+    "src": "v/open_drawer_dex3/03.mp4",
+    "caption": "pull out the drawer",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_drawer_dex3/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "open_fridge_dex3",
+  "family": "Opening",
+  "title": "Open a fridge (one hand)",
+  "description": "Grasp the fridge handle with the right hand and swing the door open.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/open_fridge_dex3/00.mp4",
+    "caption": "open the fridge",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_fridge_dex3/00_robot.mp4"
+   },
+   {
+    "src": "v/open_fridge_dex3/01.mp4",
+    "caption": "open the fridge",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_fridge_dex3/01_robot.mp4"
+   },
+   {
+    "src": "v/open_fridge_dex3/02.mp4",
+    "caption": "open the fridge",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_fridge_dex3/02_robot.mp4"
+   },
+   {
+    "src": "v/open_fridge_dex3/03.mp4",
+    "caption": "open the fridge",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_fridge_dex3/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "open_fridge_dex3x2",
+  "family": "Opening",
+  "title": "Open a fridge (two hands)",
+  "description": "The same task with a two-handed G1.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/open_fridge_dex3x2/00.mp4",
+    "caption": "open the fridge",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_fridge_dex3x2/00_robot.mp4"
+   },
+   {
+    "src": "v/open_fridge_dex3x2/01.mp4",
+    "caption": "open the fridge",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_fridge_dex3x2/01_robot.mp4"
+   },
+   {
+    "src": "v/open_fridge_dex3x2/02.mp4",
+    "caption": "open the fridge",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_fridge_dex3x2/02_robot.mp4"
+   },
+   {
+    "src": "v/open_fridge_dex3x2/03.mp4",
+    "caption": "open the fridge",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_fridge_dex3x2/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "open_oven_dex3",
+  "family": "Opening",
+  "title": "Open an oven",
+  "description": "A drop-down door on a horizontal hinge.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/open_oven_dex3/00.mp4",
+    "caption": "open the oven",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_oven_dex3/00_robot.mp4"
+   },
+   {
+    "src": "v/open_oven_dex3/01.mp4",
+    "caption": "open the oven",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_oven_dex3/01_robot.mp4"
+   },
+   {
+    "src": "v/open_oven_dex3/02.mp4",
+    "caption": "open the oven",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_oven_dex3/02_robot.mp4"
+   },
+   {
+    "src": "v/open_oven_dex3/03.mp4",
+    "caption": "open the oven",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_oven_dex3/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "open_cabinet_dex3",
+  "family": "Opening",
+  "title": "Open a cabinet",
+  "description": "Swing a kitchen cabinet door open.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/open_cabinet_dex3/00.mp4",
+    "caption": "open the kitchen cabinet",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_cabinet_dex3/00_robot.mp4"
+   },
+   {
+    "src": "v/open_cabinet_dex3/01.mp4",
+    "caption": "open the kitchen cabinet",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_cabinet_dex3/01_robot.mp4"
+   },
+   {
+    "src": "v/open_cabinet_dex3/02.mp4",
+    "caption": "open the kitchen cabinet",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_cabinet_dex3/02_robot.mp4"
+   },
+   {
+    "src": "v/open_cabinet_dex3/03.mp4",
+    "caption": "open the kitchen cabinet",
+    "meta": {
+     "edition": "pilot clip"
+    },
+    "robot": "v/open_cabinet_dex3/03_robot.mp4"
+   }
+  ]
+ }
+]

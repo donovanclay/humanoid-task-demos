@@ -1,0 +1,111 @@
+<title>Humanoid Task Demos</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: sticky top bar with the speed control, a task list on the left (a select on phones), a grid of clips on the right. */
+:root{--bg:#f3f5f7;--panel:#ffffff;--ink:#16202b;--mute:#5d6b7a;--line:#d9dfe6;--accent:#0b6e8a;--accent-ink:#ffffff;--warm:#b4540a;--warm-bg:#fbeadb;
+ --font:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f161d;--panel:#18222c;--ink:#e6edf3;--mute:#93a3b3;--line:#2b3846;--accent:#4cc3df;--accent-ink:#06222b;--warm:#f0a165;--warm-bg:#3a2616;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f161d;--panel:#18222c;--ink:#e6edf3;--mute:#93a3b3;--line:#2b3846;--accent:#4cc3df;--accent-ink:#06222b;--warm:#f0a165;--warm-bg:#3a2616;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:15px;line-height:1.5;padding-inline:16px;padding-block:0 32px}
+*{box-sizing:border-box}
+.wrap{max-width:1280px;margin:0 auto}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:12px;display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;justify-content:space-between}
+h1{font-size:18px;font-weight:600;margin:0;letter-spacing:-.01em}
+.sub{color:var(--mute);font-size:13px;margin:0}
+.ctl{display:flex;flex-wrap:wrap;gap:8px 20px}
+.speed{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{font:500 13px var(--mono);background:var(--panel);color:var(--ink);border:0;padding:6px 12px;cursor:pointer;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;padding-top:20px}
+nav{align-self:start;position:sticky;top:calc(env(safe-area-inset-top,0px) + 76px);max-height:calc(100vh - 100px);overflow:auto;padding-right:4px}
+nav h2{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--mute);margin:16px 0 6px}
+nav h2:first-child{margin-top:0}
+nav a{display:flex;justify-content:space-between;gap:8px;padding:6px 10px;border-radius:6px;color:var(--ink);text-decoration:none;font-size:14px}
+nav a:hover{background:var(--panel)}
+nav a[aria-current="true"]{background:var(--panel);box-shadow:inset 3px 0 0 var(--accent);font-weight:500}
+nav .n{font:400 12px var(--mono);color:var(--mute)}
+.pickwrap{display:none;margin-bottom:4px}
+.pickwrap label{display:block;font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--mute);margin-bottom:6px}
+.sel{position:relative}
+.sel::after{content:"";position:absolute;right:16px;top:50%;width:9px;height:9px;border-right:2.5px solid var(--accent);border-bottom:2.5px solid var(--accent);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+#pick{width:100%;appearance:none;-webkit-appearance:none;font:600 16px var(--font);color:var(--ink);background:var(--panel);border:2px solid var(--accent);border-radius:8px;padding:12px 44px 12px 14px;cursor:pointer;box-shadow:0 1px 0 var(--line)}
+#pick:hover{background:var(--bg)}
+main{min-width:0}
+.head{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:baseline}
+h2.t{font-size:22px;font-weight:600;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.fam{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--mute)}
+.desc{max-width:68ch;color:var(--mute);margin:6px 0 0}
+.badge{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:99px;background:var(--warm-bg);color:var(--warm)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:16px;margin-top:18px}
+.clip{background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden;min-width:0}
+.view{position:relative;overflow:hidden;background:#000;aspect-ratio:16/9;cursor:pointer}
+.view.r{aspect-ratio:384/224}
+.view video{display:block;width:100%;height:100%;object-fit:cover}
+.view.r video{width:200%;max-width:none;height:auto;position:absolute;top:0}
+.view .na{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;color:#c9d3dd;font-size:13px;background:#10171e}
+.pc{display:flex;align-items:center;gap:8px;padding:6px 10px;border-top:1px solid var(--line)}
+.pc button{font:500 12px var(--mono);width:30px;height:26px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--ink);cursor:pointer}
+.pc input[type=range]{flex:1;min-width:0;accent-color:var(--accent)}
+.pc .tm{font:400 11px var(--mono);color:var(--mute);font-variant-numeric:tabular-nums;min-width:64px;text-align:right}
+.cap{padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.cap b{font-weight:500;font-size:14px}
+.cap span{font:400 11px var(--mono);color:var(--mute)}
+.bar{display:flex;gap:8px;align-items:center;margin-top:14px}
+.bar button{font:500 13px var(--font);background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 12px;cursor:pointer}
+footer{margin-top:32px;color:var(--mute);font-size:12px;max-width:80ch}
+@media (max-width:980px){.layout{grid-template-columns:minmax(0,1fr)}nav{display:none}.pickwrap{display:block}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+<div class="wrap">
+<header>
+ <div><h1>Humanoid Task Demos</h1><p class="sub" id="count"></p></div>
+ <div class="ctl"><div class="speed">Camera<div class="seg" id="cam" role="group" aria-label="Camera"></div></div>
+ <div class="speed">Speed<div class="seg" id="speed" role="group" aria-label="Playback speed"></div></div></div>
+</header>
+<div class="layout">
+ <div><div class="pickwrap"><label for="pick">Task (tap to choose)</label><div class="sel"><select id="pick"></select></div></div><nav id="nav" aria-label="Tasks"></nav></div>
+ <main id="main"></main>
+</div>
+<footer>Unitree G1 humanoid with Dex3 hands, scripted expert demonstrations in MuJoCo (molmospaces). Clips default to the third-person camera, recorded at 10 fps and played at 2x by default. The egocentric (head) and wrist views are the robot cameras of the same run. Walking tasks show the GR00T lower-body edition. Clips marked "pilot clip" come from earlier pilot runs and are being replaced by a fresh render.</footer>
+</div>
+<script>
+const SPEEDS=[1,2,4],CAMS=[['tp','Third person'],['head','Egocentric'],['wrist','Wrist']];let speed=2,cam='tp',data=[],cur=null;
+try{const s=parseFloat(localStorage.getItem('htd.speed'));if(SPEEDS.includes(s))speed=s;const c=localStorage.getItem('htd.cam');if(CAMS.some(x=>x[0]===c))cam=c}catch(e){}
+const $=id=>document.getElementById(id);
+function applySpeed(v){v.defaultPlaybackRate=speed;v.playbackRate=speed}
+function seg(el,items,get,set,label){el.innerHTML='';items.forEach(([k,t])=>{const b=document.createElement('button');b.textContent=t;b.setAttribute('aria-pressed',get()===k);b.onclick=()=>{set(k)};el.appendChild(b)})}
+function renderCtl(){seg($('speed'),SPEEDS.map(s=>[s,s+'x']),()=>speed,k=>{speed=k;try{localStorage.setItem('htd.speed',k)}catch(e){}renderCtl();document.querySelectorAll('video').forEach(applySpeed)});
+ seg($('cam'),CAMS,()=>cam,k=>{cam=k;try{localStorage.setItem('htd.cam',k)}catch(e){}renderCtl();show(cur,true)})}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function renderNav(){const fams=[...new Set(data.map(t=>t.family))];let h='';fams.forEach(f=>{h+=`<h2>${esc(f)}</h2>`;data.filter(t=>t.family===f).forEach(t=>{h+=`<a href="#${t.id}" data-id="${t.id}"><span>${esc(t.title)}</span><span class="n">${t.clips.length}</span></a>`})});$('nav').innerHTML=h;
+ $('pick').innerHTML=fams.map(f=>`<optgroup label="${esc(f)}">`+data.filter(t=>t.family===f).map(t=>`<option value="${t.id}">${esc(t.title)}</option>`).join('')+'</optgroup>').join('')}
+function fmt(x){x=Math.max(0,x||0);return Math.floor(x/60)+':'+String(Math.floor(x%60)).padStart(2,'0')}
+function card(c){const robot=cam!=='tp',has=!robot||c.robot,idx=cam==='wrist'?1:0;
+ const src=robot?c.robot:c.src;
+ return `<div class="clip"><div class="view${robot?' r':''}">${has?`<video src="${src}" muted loop playsinline preload="metadata" ${robot?`style="left:${-idx*100}%"`:''}></video>`:'<div class="na">This camera is not rendered for this clip yet.</div>'}</div>
+ <div class="pc"><button class="pp" aria-label="Play or pause" ${has?'':'disabled'}>&#9654;</button><input type="range" min="0" max="1000" value="0" aria-label="Seek" ${has?'':'disabled'}><span class="tm">0:00</span></div>
+ <div class="cap"><b>${esc(c.caption)}</b><span>${esc(c.meta.edition||'')}${c.meta.chair?' · '+esc(c.meta.chair):''}</span></div></div>`}
+function wire(el,keep){const v=el.querySelector('video');if(!v)return;const pp=el.querySelector('.pp'),r=el.querySelector('input'),tm=el.querySelector('.tm');
+ applySpeed(v);
+ v.addEventListener('loadedmetadata',()=>{applySpeed(v);if(keep){v.currentTime=Math.min(keep.t,v.duration||keep.t);if(keep.playing)v.play().catch(()=>{})}});
+ v.addEventListener('play',()=>{applySpeed(v);pp.innerHTML='&#10074;&#10074;'});v.addEventListener('pause',()=>{pp.innerHTML='&#9654;'});
+ v.addEventListener('timeupdate',()=>{if(!r.dataset.drag){r.value=v.duration?1000*v.currentTime/v.duration:0}tm.textContent=fmt(v.currentTime)+' / '+fmt(v.duration)});
+ const tog=()=>v.paused?v.play().catch(()=>{}):v.pause();pp.onclick=tog;el.querySelector('.view').onclick=tog;
+ r.oninput=()=>{r.dataset.drag=1;if(v.duration)v.currentTime=v.duration*r.value/1000};r.onchange=()=>{delete r.dataset.drag}}
+function show(id,keepState){const t=data.find(x=>x.id===id)||data[0];cur=t.id;
+ const prev=keepState?[...document.querySelectorAll('.clip video')].map(v=>({t:v.currentTime,playing:!v.paused})):[];
+ document.querySelectorAll('nav a').forEach(a=>a.setAttribute('aria-current',a.dataset.id===t.id));$('pick').value=t.id;
+ $('main').innerHTML=`<div class="head"><span class="fam">${esc(t.family)}</span>${t.status==='pilot'?'<span class="badge">pilot clips, new render coming</span>':''}</div>
+ <h2 class="t">${esc(t.title)}</h2><p class="desc">${esc(t.description)}</p>
+ <div class="bar"><button id="all">Play all</button><button id="stop">Pause all</button></div>
+ <div class="grid">${t.clips.map(card).join('')}</div>`;
+ const els=[...document.querySelectorAll('.clip')];els.forEach((el,i)=>wire(el,prev[i]&&el.querySelector('video')?prev[i]:null));
+ $('all').onclick=()=>document.querySelectorAll('video').forEach(v=>v.play().catch(()=>{}));$('stop').onclick=()=>document.querySelectorAll('video').forEach(v=>v.pause())}
+function route(){show((location.hash||'').slice(1),false)}
+$('pick').onchange=e=>{location.hash=e.target.value};
+window.addEventListener('hashchange',route);
+fetch('data.json').then(r=>r.json()).then(d=>{data=d;$('count').textContent=d.length+' tasks, '+d.reduce((a,t)=>a+t.clips.length,0)+' clips';renderCtl();renderNav();route()});
+</script>
