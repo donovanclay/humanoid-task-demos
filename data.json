@@ -853,43 +853,75 @@
   ]
  },
  {
-  "id": "open_drawer_dex3",
+  "id": "open-drawer-named",
   "family": "Opening",
-  "title": "Open a drawer",
-  "description": "Pull a drawer open by its handle.",
+  "title": "Open a named drawer",
+  "description": "The instruction says which drawer to pull out: \"the top right drawer of the dresser\", \"the drawer to the left of the oven\". The robot starts facing the drawer, so the words are the only way to tell which one is meant.",
   "status": "ready",
   "clips": [
    {
-    "src": "v/open_drawer_dex3/00.mp4",
-    "caption": "pull out the drawer",
+    "src": "v/open-drawer-named/00.mp4",
+    "caption": "pull out the top right drawer",
     "meta": {
-     "edition": "pilot clip"
+     "edition": "new render"
     },
-    "robot": "v/open_drawer_dex3/00_robot.mp4"
+    "robot": "v/open-drawer-named/00_robot.mp4"
    },
    {
-    "src": "v/open_drawer_dex3/01.mp4",
-    "caption": "pull out the drawer",
+    "src": "v/open-drawer-named/01.mp4",
+    "caption": "pull out the top leftmost drawer",
     "meta": {
-     "edition": "pilot clip"
+     "edition": "new render"
     },
-    "robot": "v/open_drawer_dex3/01_robot.mp4"
+    "robot": "v/open-drawer-named/01_robot.mp4"
    },
    {
-    "src": "v/open_drawer_dex3/02.mp4",
-    "caption": "pull out the drawer",
+    "src": "v/open-drawer-named/02.mp4",
+    "caption": "pull out the drawer to the left of the oven",
     "meta": {
-     "edition": "pilot clip"
+     "edition": "new render"
     },
-    "robot": "v/open_drawer_dex3/02_robot.mp4"
+    "robot": "v/open-drawer-named/02_robot.mp4"
    },
    {
-    "src": "v/open_drawer_dex3/03.mp4",
-    "caption": "pull out the drawer",
+    "src": "v/open-drawer-named/03.mp4",
+    "caption": "pull out the top rightmost drawer",
     "meta": {
-     "edition": "pilot clip"
+     "edition": "new render"
     },
-    "robot": "v/open_drawer_dex3/03_robot.mp4"
+    "robot": "v/open-drawer-named/03_robot.mp4"
+   },
+   {
+    "src": "v/open-drawer-named/04.mp4",
+    "caption": "pull out the top right drawer of the dresser",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/open-drawer-named/04_robot.mp4"
+   },
+   {
+    "src": "v/open-drawer-named/05.mp4",
+    "caption": "pull out the top left drawer",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/open-drawer-named/05_robot.mp4"
+   },
+   {
+    "src": "v/open-drawer-named/06.mp4",
+    "caption": "pull out the top drawer",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/open-drawer-named/06_robot.mp4"
+   },
+   {
+    "src": "v/open-drawer-named/07.mp4",
+    "caption": "pull out the second drawer from the left in the top row",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/open-drawer-named/07_robot.mp4"
    }
   ]
  },
@@ -1054,6 +1086,272 @@
      "edition": "pilot clip"
     },
     "robot": "v/open_cabinet_dex3/03_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "either-arm",
+  "family": "Arm choice",
+  "title": "Left or right arm",
+  "description": "The instruction names the arm: \"bring the mug to the counter with your left arm\". The robot does the same task with either hand (G1 with two Dex3 hands). One left-arm and one right-arm demonstration per task family.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/either-arm/00.mp4",
+    "caption": "move the statue to the left on the dining table with your left arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/00_robot.mp4"
+   },
+   {
+    "src": "v/either-arm/01.mp4",
+    "caption": "move the bottle to the right on the counter with your right arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/01_robot.mp4"
+   },
+   {
+    "src": "v/either-arm/02.mp4",
+    "caption": "put the shaker in the bowl with your left arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/02_robot.mp4"
+   },
+   {
+    "src": "v/either-arm/03.mp4",
+    "caption": "put the glass in the bowl with your right arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/03_robot.mp4"
+   },
+   {
+    "src": "v/either-arm/04.mp4",
+    "caption": "bring the mug to the dining table with your left arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/04_robot.mp4"
+   },
+   {
+    "src": "v/either-arm/05.mp4",
+    "caption": "bring the bottle to the counter with your right arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/05_robot.mp4"
+   },
+   {
+    "src": "v/either-arm/06.mp4",
+    "caption": "put the shaker in the bowl with your left arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/06_robot.mp4"
+   },
+   {
+    "src": "v/either-arm/07.mp4",
+    "caption": "pick up the cup from the floor with your left arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/07_robot.mp4"
+   },
+   {
+    "src": "v/either-arm/08.mp4",
+    "caption": "pick up the towel from the floor with your right arm",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/either-arm/08_robot.mp4"
+   }
+  ]
+ },
+ {
+  "id": "arm-postures",
+  "family": "Arm choice",
+  "title": "Varied arm postures",
+  "description": "Each episode draws its own posture for the carrying arm (while walking with the object) and for the resting arm after the release, and for pick-only floor tasks how the object is held. Labelled by posture mode.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/arm-postures/00.mp4",
+    "caption": "bring the bottle to the dining table with your right arm (carrying arm while walking: canonical)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/00_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/01.mp4",
+    "caption": "bring the mug to the dining table (carrying arm while walking: canonical)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/01_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/02.mp4",
+    "caption": "bring the vase to the dining table (carrying arm while walking: high)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/02_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/03.mp4",
+    "caption": "bring the clock to the side table (carrying arm while walking: high)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/03_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/04.mp4",
+    "caption": "bring the vase to the dresser (carrying arm while walking: low front)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/04_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/05.mp4",
+    "caption": "bring the statue to the desk (carrying arm while walking: low front)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/05_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/06.mp4",
+    "caption": "bring the statue to the dresser (carrying arm while walking: tucked)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/06_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/07.mp4",
+    "caption": "bring the plunger to the dresser (carrying arm while walking: tucked)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/07_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/08.mp4",
+    "caption": "move the statue farther away on the dresser (resting arm after the release: init)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/08_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/09.mp4",
+    "caption": "move the vase to the right on the dresser with your left arm (resting arm after the release: init)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/09_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/10.mp4",
+    "caption": "move the towel to the right on the side table with your right arm (resting arm after the release: default jitter)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/10_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/11.mp4",
+    "caption": "put the bottle in the pot with your left arm (resting arm after the release: default jitter)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/11_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/12.mp4",
+    "caption": "move the mug to the left on the side table with your right arm (resting arm after the release: hang)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/12_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/13.mp4",
+    "caption": "move the shaker to the right on the counter with your left arm (resting arm after the release: hang)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/13_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/14.mp4",
+    "caption": "pick up the bottle from the floor with your right arm (arm holding the object (floor pick): canonical)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/14_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/15.mp4",
+    "caption": "pick up the towel from the floor with your left arm (arm holding the object (floor pick): canonical)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/15_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/16.mp4",
+    "caption": "pick up the bottle from the floor with your left arm (arm holding the object (floor pick): high)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/16_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/17.mp4",
+    "caption": "pick up the cup from the floor with your right arm (arm holding the object (floor pick): high)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/17_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/18.mp4",
+    "caption": "pick up the cup from the floor with your right arm (arm holding the object (floor pick): low front)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/18_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/19.mp4",
+    "caption": "pick up the towel from the floor (arm holding the object (floor pick): low front)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/19_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/20.mp4",
+    "caption": "pick up the towel from the floor with your right arm (arm holding the object (floor pick): tucked)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/20_robot.mp4"
+   },
+   {
+    "src": "v/arm-postures/21.mp4",
+    "caption": "pick up the towel from the floor with your left arm (arm holding the object (floor pick): tucked)",
+    "meta": {
+     "edition": "new render"
+    },
+    "robot": "v/arm-postures/21_robot.mp4"
    }
   ]
  }
