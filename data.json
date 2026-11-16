@@ -7,36 +7,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/tabletop/00.mp4",
-    "caption": "move the apple to the right on the counter",
-    "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/tabletop/00_robot.mp4"
-   },
-   {
-    "src": "v/tabletop/01.mp4",
-    "caption": "move the vase to the right on the dining table",
-    "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/tabletop/01_robot.mp4"
-   },
-   {
-    "src": "v/tabletop/02.mp4",
+    "src": "v/tabletop/s00.mp4",
+    "robot": "v/tabletop/s00_robot.mp4",
     "caption": "move the bottle to the right on the counter",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/tabletop/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/tabletop/03.mp4",
+    "src": "v/tabletop/s01.mp4",
+    "robot": "v/tabletop/s01_robot.mp4",
+    "caption": "move the vase to the left on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/tabletop/s02.mp4",
+    "robot": "v/tabletop/s02_robot.mp4",
+    "caption": "move the bowl to the right on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/tabletop/s03.mp4",
+    "robot": "v/tabletop/s03_robot.mp4",
     "caption": "move the bottle to the right on the counter",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/tabletop/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -48,36 +48,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/tabletop-containers/00.mp4",
-    "caption": "put the mug in the pot",
+    "src": "v/tabletop-containers/s00.mp4",
+    "robot": "v/tabletop-containers/s00_robot.mp4",
+    "caption": "put the shaker in the bowl",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/tabletop-containers/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/tabletop-containers/01.mp4",
-    "caption": "put the mug in the pot",
+    "src": "v/tabletop-containers/s01.mp4",
+    "robot": "v/tabletop-containers/s01_robot.mp4",
+    "caption": "put the bottle in the pot",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/tabletop-containers/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/tabletop-containers/02.mp4",
-    "caption": "put the shaker in the box",
+    "src": "v/tabletop-containers/s02.mp4",
+    "robot": "v/tabletop-containers/s02_robot.mp4",
+    "caption": "put the statue in the pot",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/tabletop-containers/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/tabletop-containers/03.mp4",
-    "caption": "put the candle in the tray",
+    "src": "v/tabletop-containers/s03.mp4",
+    "robot": "v/tabletop-containers/s03_robot.mp4",
+    "caption": "put the towel in the bowl",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/tabletop-containers/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -89,36 +89,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/walk/00.mp4",
-    "caption": "bring the statue to the tv stand",
+    "src": "v/walk/s00.mp4",
+    "robot": "v/walk/s00_robot.mp4",
+    "caption": "bring the mug to the counter",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk/01.mp4",
-    "caption": "bring the vase to the dresser",
+    "src": "v/walk/s01.mp4",
+    "robot": "v/walk/s01_robot.mp4",
+    "caption": "bring the bottle to the counter",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk/02.mp4",
-    "caption": "bring the bottle to the dining table",
+    "src": "v/walk/s02.mp4",
+    "robot": "v/walk/s02_robot.mp4",
+    "caption": "bring the candle to the dining table",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk/03.mp4",
-    "caption": "bring the plunger to the dresser",
+    "src": "v/walk/s03.mp4",
+    "robot": "v/walk/s03_robot.mp4",
+    "caption": "bring the shaker to the dining table",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -130,36 +130,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/walk-containers/00.mp4",
-    "caption": "put the shaker in the clay dish",
+    "src": "v/walk-containers/s00.mp4",
+    "robot": "v/walk-containers/s00_robot.mp4",
+    "caption": "put the shaker in the bowl",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-containers/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-containers/01.mp4",
-    "caption": "put the bottle in the pot",
+    "src": "v/walk-containers/s01.mp4",
+    "robot": "v/walk-containers/s01_robot.mp4",
+    "caption": "put the candle in the ceramic bowl",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-containers/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-containers/02.mp4",
-    "caption": "put the candle in the box",
+    "src": "v/walk-containers/s02.mp4",
+    "robot": "v/walk-containers/s02_robot.mp4",
+    "caption": "put the bottle in the bowl",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-containers/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-containers/03.mp4",
-    "caption": "put the bowl in the pot",
+    "src": "v/walk-containers/s03.mp4",
+    "robot": "v/walk-containers/s03_robot.mp4",
+    "caption": "put the towel in the clay dish",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-containers/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -171,36 +171,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/walk-perturb/00.mp4",
-    "caption": "bring the bottle to the counter",
+    "src": "v/walk-perturb/s00.mp4",
+    "robot": "v/walk-perturb/s00_robot.mp4",
+    "caption": "bring the candle to the dining table",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-perturb/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-perturb/01.mp4",
-    "caption": "bring the plunger to the dresser",
+    "src": "v/walk-perturb/s01.mp4",
+    "robot": "v/walk-perturb/s01_robot.mp4",
+    "caption": "bring the bottle to the dining table",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-perturb/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-perturb/02.mp4",
-    "caption": "bring the statue to the dining table",
+    "src": "v/walk-perturb/s02.mp4",
+    "robot": "v/walk-perturb/s02_robot.mp4",
+    "caption": "bring the pepper to the dining table",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-perturb/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-perturb/03.mp4",
-    "caption": "bring the vase to the dresser",
+    "src": "v/walk-perturb/s03.mp4",
+    "robot": "v/walk-perturb/s03_robot.mp4",
+    "caption": "put the shaker in the bowl",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-perturb/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -212,36 +212,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/walk-clutter/00.mp4",
-    "caption": "bring the mug to the dining table",
+    "src": "v/walk-clutter/s00.mp4",
+    "robot": "v/walk-clutter/s00_robot.mp4",
+    "caption": "bring the pepper shaker on the right to the dining table",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-clutter/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-clutter/01.mp4",
-    "caption": "bring the turquoise bottle to the dining table",
+    "src": "v/walk-clutter/s01.mp4",
+    "robot": "v/walk-clutter/s01_robot.mp4",
+    "caption": "bring the candle on the side table to the dining table",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-clutter/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-clutter/02.mp4",
-    "caption": "bring the bottle on the dresser to the dresser",
+    "src": "v/walk-clutter/s02.mp4",
+    "robot": "v/walk-clutter/s02_robot.mp4",
+    "caption": "bring the goblet to the counter",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-clutter/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/walk-clutter/03.mp4",
-    "caption": "bring the mug to the side table",
+    "src": "v/walk-clutter/s03.mp4",
+    "robot": "v/walk-clutter/s03_robot.mp4",
+    "caption": "bring the mug on the desk to the dining table",
     "meta": {
-     "edition": "GR00T"
-    },
-    "robot": "v/walk-clutter/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -256,7 +256,7 @@
     "src": "v/floor-deliver/00.mp4",
     "caption": "bring the bottle to the side table",
     "meta": {
-     "edition": "GR00T"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-deliver/00_robot.mp4"
    },
@@ -264,7 +264,7 @@
     "src": "v/floor-deliver/01.mp4",
     "caption": "bring the bottle to the counter",
     "meta": {
-     "edition": "GR00T"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-deliver/01_robot.mp4"
    },
@@ -272,7 +272,7 @@
     "src": "v/floor-deliver/02.mp4",
     "caption": "bring the cup to the dresser",
     "meta": {
-     "edition": "GR00T"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-deliver/02_robot.mp4"
    },
@@ -280,7 +280,7 @@
     "src": "v/floor-deliver/03.mp4",
     "caption": "bring the towel to the dining table",
     "meta": {
-     "edition": "GR00T"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-deliver/03_robot.mp4"
    }
@@ -297,7 +297,7 @@
     "src": "v/floor-deliver-clutter/00.mp4",
     "caption": "bring the cup on the floor to the dining table",
     "meta": {
-     "edition": "GR00T"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-deliver-clutter/00_robot.mp4"
    },
@@ -305,7 +305,7 @@
     "src": "v/floor-deliver-clutter/01.mp4",
     "caption": "bring the paper towel to the counter",
     "meta": {
-     "edition": "GR00T"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-deliver-clutter/01_robot.mp4"
    },
@@ -313,7 +313,7 @@
     "src": "v/floor-deliver-clutter/02.mp4",
     "caption": "bring the transparent soap bottle to the tv stand",
     "meta": {
-     "edition": "GR00T"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-deliver-clutter/02_robot.mp4"
    },
@@ -321,7 +321,7 @@
     "src": "v/floor-deliver-clutter/03.mp4",
     "caption": "bring the purple bottle to the counter",
     "meta": {
-     "edition": "GR00T"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-deliver-clutter/03_robot.mp4"
    }
@@ -338,7 +338,7 @@
     "src": "v/floor-open/00.mp4",
     "caption": "pick up the cup from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-open/00_robot.mp4"
    },
@@ -346,7 +346,7 @@
     "src": "v/floor-open/01.mp4",
     "caption": "pick up the cup from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-open/01_robot.mp4"
    },
@@ -354,7 +354,7 @@
     "src": "v/floor-open/02.mp4",
     "caption": "pick up the towel from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-open/02_robot.mp4"
    },
@@ -362,7 +362,7 @@
     "src": "v/floor-open/03.mp4",
     "caption": "pick up the cup from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-open/03_robot.mp4"
    }
@@ -379,7 +379,7 @@
     "src": "v/floor-corner/00.mp4",
     "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-corner/00_robot.mp4"
    },
@@ -387,7 +387,7 @@
     "src": "v/floor-corner/01.mp4",
     "caption": "pick up the towel from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-corner/01_robot.mp4"
    },
@@ -395,7 +395,7 @@
     "src": "v/floor-corner/02.mp4",
     "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-corner/02_robot.mp4"
    },
@@ -403,7 +403,7 @@
     "src": "v/floor-corner/03.mp4",
     "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-corner/03_robot.mp4"
    }
@@ -420,7 +420,7 @@
     "src": "v/floor-near-wall/00.mp4",
     "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-near-wall/00_robot.mp4"
    },
@@ -428,7 +428,7 @@
     "src": "v/floor-near-wall/01.mp4",
     "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-near-wall/01_robot.mp4"
    },
@@ -436,7 +436,7 @@
     "src": "v/floor-near-wall/02.mp4",
     "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-near-wall/02_robot.mp4"
    },
@@ -444,7 +444,7 @@
     "src": "v/floor-near-wall/03.mp4",
     "caption": "pick up the cup from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-near-wall/03_robot.mp4"
    }
@@ -461,7 +461,7 @@
     "src": "v/floor-recovery/00.mp4",
     "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-recovery/00_robot.mp4"
    },
@@ -469,7 +469,7 @@
     "src": "v/floor-recovery/01.mp4",
     "caption": "pick up the towel from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-recovery/01_robot.mp4"
    },
@@ -477,7 +477,7 @@
     "src": "v/floor-recovery/02.mp4",
     "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-recovery/02_robot.mp4"
    },
@@ -485,7 +485,7 @@
     "src": "v/floor-recovery/03.mp4",
     "caption": "pick up the towel from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-recovery/03_robot.mp4"
    }
@@ -502,7 +502,7 @@
     "src": "v/floor-clutter/00.mp4",
     "caption": "pick up the transparent cup from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-clutter/00_robot.mp4"
    },
@@ -510,7 +510,7 @@
     "src": "v/floor-clutter/01.mp4",
     "caption": "pick up the paper towel from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-clutter/01_robot.mp4"
    },
@@ -518,7 +518,7 @@
     "src": "v/floor-clutter/02.mp4",
     "caption": "pick up the paper towel from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-clutter/02_robot.mp4"
    },
@@ -526,7 +526,7 @@
     "src": "v/floor-clutter/03.mp4",
     "caption": "pick up the bottle on the floor from the floor",
     "meta": {
-     "edition": "shared"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/floor-clutter/03_robot.mp4"
    }
@@ -540,36 +540,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/fetch/00.mp4",
-    "caption": "pick up the potato.",
+    "src": "v/fetch/s00.mp4",
+    "robot": "v/fetch/s00_robot.mp4",
+    "caption": "pick up the shaker.",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/fetch/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/fetch/01.mp4",
-    "caption": "pick up the candle.",
+    "src": "v/fetch/s01.mp4",
+    "robot": "v/fetch/s01_robot.mp4",
+    "caption": "pick up the roll.",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/fetch/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/fetch/02.mp4",
-    "caption": "pick up the apple.",
+    "src": "v/fetch/s02.mp4",
+    "robot": "v/fetch/s02_robot.mp4",
+    "caption": "pick up the cup.",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/fetch/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/fetch/03.mp4",
-    "caption": "pick up the mug.",
+    "src": "v/fetch/s03.mp4",
+    "robot": "v/fetch/s03_robot.mp4",
+    "caption": "pick up the vase.",
     "meta": {
-     "edition": "shared"
-    },
-    "robot": "v/fetch/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -584,8 +584,7 @@
     "src": "v/place-on-surface/00.mp4",
     "caption": "put the bottle on the plate",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/00_robot.mp4"
    },
@@ -593,8 +592,7 @@
     "src": "v/place-on-surface/01.mp4",
     "caption": "put the bottle on the tray",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/01_robot.mp4"
    },
@@ -602,8 +600,7 @@
     "src": "v/place-on-surface/02.mp4",
     "caption": "put the shaker on the box",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/02_robot.mp4"
    },
@@ -611,8 +608,7 @@
     "src": "v/place-on-surface/03.mp4",
     "caption": "put the bottle on the dish",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/03_robot.mp4"
    },
@@ -620,8 +616,7 @@
     "src": "v/place-on-surface/04.mp4",
     "caption": "put the apple on the plate",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/04_robot.mp4"
    },
@@ -629,8 +624,7 @@
     "src": "v/place-on-surface/05.mp4",
     "caption": "put the bottle on the tray",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/05_robot.mp4"
    },
@@ -638,8 +632,7 @@
     "src": "v/place-on-surface/06.mp4",
     "caption": "put the shaker in the box",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/06_robot.mp4"
    },
@@ -647,8 +640,7 @@
     "src": "v/place-on-surface/07.mp4",
     "caption": "put the bottle on the plate",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/07_robot.mp4"
    },
@@ -656,8 +648,7 @@
     "src": "v/place-on-surface/08.mp4",
     "caption": "put the towel on the tray",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/08_robot.mp4"
    },
@@ -665,8 +656,7 @@
     "src": "v/place-on-surface/09.mp4",
     "caption": "put the bottle on the plate",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/09_robot.mp4"
    },
@@ -674,8 +664,7 @@
     "src": "v/place-on-surface/10.mp4",
     "caption": "put the bottle on the tray",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/10_robot.mp4"
    },
@@ -683,8 +672,7 @@
     "src": "v/place-on-surface/11.mp4",
     "caption": "put the bottle on the plate",
     "meta": {
-     "edition": "new render",
-     "chair": null
+     "edition": "GR00T-WBC"
     },
     "robot": "v/place-on-surface/11_robot.mp4"
    }
@@ -698,76 +686,68 @@
   "description": "Two Dex3 hands. The robot walks up behind an office chair, puts both palms on the backrest and pushes it to the edge of a table or desk, then steps back.",
   "clips": [
    {
-    "src": "v/push-chair/00.mp4",
+    "src": "v/push-chair/s00.mp4",
+    "robot": "v/push-chair/s00_robot.mp4",
     "caption": "push the office chair to the table",
     "meta": {
-     "edition": "new render",
-     "chair": "volmar"
-    },
-    "robot": "v/push-chair/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/push-chair/01.mp4",
+    "src": "v/push-chair/s01.mp4",
+    "robot": "v/push-chair/s01_robot.mp4",
     "caption": "push the office chair to the table",
     "meta": {
-     "edition": "new render",
-     "chair": "sevnning"
-    },
-    "robot": "v/push-chair/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/push-chair/02.mp4",
+    "src": "v/push-chair/s02.mp4",
+    "robot": "v/push-chair/s02_robot.mp4",
     "caption": "push the office chair to the table",
     "meta": {
-     "edition": "new render",
-     "chair": "allak"
-    },
-    "robot": "v/push-chair/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/push-chair/03.mp4",
+    "src": "v/push-chair/s03.mp4",
+    "robot": "v/push-chair/s03_robot.mp4",
     "caption": "push the office chair to the table",
     "meta": {
-     "edition": "new render",
-     "chair": "jules"
-    },
-    "robot": "v/push-chair/03_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/push-chair/04.mp4",
-    "caption": "push the office chair to the desk",
-    "meta": {
-     "edition": "new render",
-     "chair": "volmar"
-    },
-    "robot": "v/push-chair/04_robot.mp4"
-   },
-   {
-    "src": "v/push-chair/05.mp4",
+    "src": "v/push-chair/s04.mp4",
+    "robot": "v/push-chair/s04_robot.mp4",
     "caption": "push the office chair to the table",
     "meta": {
-     "edition": "new render",
-     "chair": "sevnning"
-    },
-    "robot": "v/push-chair/05_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/push-chair/06.mp4",
-    "caption": "push the office chair to the desk",
+    "src": "v/push-chair/s05.mp4",
+    "robot": "v/push-chair/s05_robot.mp4",
+    "caption": "push the office chair to the table",
     "meta": {
-     "edition": "new render",
-     "chair": "allak"
-    },
-    "robot": "v/push-chair/06_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/push-chair/07.mp4",
-    "caption": "push the office chair to the desk",
+    "src": "v/push-chair/s06.mp4",
+    "robot": "v/push-chair/s06_robot.mp4",
+    "caption": "push the office chair to the table",
     "meta": {
-     "edition": "new render",
-     "chair": "jules"
-    },
-    "robot": "v/push-chair/07_robot.mp4"
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/push-chair/s07.mp4",
+    "robot": "v/push-chair/s07_robot.mp4",
+    "caption": "push the office chair to the table",
+    "meta": {
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -779,76 +759,68 @@
   "description": "The same push, but the chair ends with its seat 15 to 25 cm under the table top.",
   "clips": [
    {
-    "src": "v/tuck-chair/00.mp4",
-    "caption": "tuck the office chair under the table",
-    "meta": {
-     "edition": "new render",
-     "chair": "volmar"
-    },
-    "robot": "v/tuck-chair/00_robot.mp4"
-   },
-   {
-    "src": "v/tuck-chair/01.mp4",
-    "caption": "tuck the office chair under the table",
-    "meta": {
-     "edition": "new render",
-     "chair": "jules"
-    },
-    "robot": "v/tuck-chair/01_robot.mp4"
-   },
-   {
-    "src": "v/tuck-chair/02.mp4",
+    "src": "v/tuck-chair/s00.mp4",
+    "robot": "v/tuck-chair/s00_robot.mp4",
     "caption": "tuck the chair under the desk",
     "meta": {
-     "edition": "new render",
-     "chair": "Chair_223_1"
-    },
-    "robot": "v/tuck-chair/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/tuck-chair/03.mp4",
+    "src": "v/tuck-chair/s01.mp4",
+    "robot": "v/tuck-chair/s01_robot.mp4",
     "caption": "tuck the office chair under the table",
     "meta": {
-     "edition": "new render",
-     "chair": "volmar"
-    },
-    "robot": "v/tuck-chair/03_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/tuck-chair/04.mp4",
-    "caption": "tuck the office chair under the table",
-    "meta": {
-     "edition": "new render",
-     "chair": "jules"
-    },
-    "robot": "v/tuck-chair/04_robot.mp4"
-   },
-   {
-    "src": "v/tuck-chair/05.mp4",
+    "src": "v/tuck-chair/s02.mp4",
+    "robot": "v/tuck-chair/s02_robot.mp4",
     "caption": "tuck the chair under the table",
     "meta": {
-     "edition": "new render",
-     "chair": "Chair_223_1"
-    },
-    "robot": "v/tuck-chair/05_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/tuck-chair/06.mp4",
-    "caption": "tuck the office chair under the table",
+    "src": "v/tuck-chair/s03.mp4",
+    "robot": "v/tuck-chair/s03_robot.mp4",
+    "caption": "tuck the chair under the table",
     "meta": {
-     "edition": "new render",
-     "chair": "volmar"
-    },
-    "robot": "v/tuck-chair/06_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/tuck-chair/07.mp4",
+    "src": "v/tuck-chair/s04.mp4",
+    "robot": "v/tuck-chair/s04_robot.mp4",
+    "caption": "tuck the chair under the table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/tuck-chair/s05.mp4",
+    "robot": "v/tuck-chair/s05_robot.mp4",
     "caption": "tuck the office chair under the table",
     "meta": {
-     "edition": "new render",
-     "chair": "jules"
-    },
-    "robot": "v/tuck-chair/07_robot.mp4"
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/tuck-chair/s06.mp4",
+    "robot": "v/tuck-chair/s06_robot.mp4",
+    "caption": "tuck the office chair under the table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/tuck-chair/s07.mp4",
+    "robot": "v/tuck-chair/s07_robot.mp4",
+    "caption": "tuck the office chair under the table",
+    "meta": {
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -863,7 +835,7 @@
     "src": "v/open-drawer-named/00.mp4",
     "caption": "pull out the top right drawer",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/open-drawer-named/00_robot.mp4"
    },
@@ -871,7 +843,7 @@
     "src": "v/open-drawer-named/01.mp4",
     "caption": "pull out the top leftmost drawer",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/open-drawer-named/01_robot.mp4"
    },
@@ -879,7 +851,7 @@
     "src": "v/open-drawer-named/02.mp4",
     "caption": "pull out the drawer to the left of the oven",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/open-drawer-named/02_robot.mp4"
    },
@@ -887,7 +859,7 @@
     "src": "v/open-drawer-named/03.mp4",
     "caption": "pull out the top rightmost drawer",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/open-drawer-named/03_robot.mp4"
    },
@@ -895,7 +867,7 @@
     "src": "v/open-drawer-named/04.mp4",
     "caption": "pull out the top right drawer of the dresser",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/open-drawer-named/04_robot.mp4"
    },
@@ -903,7 +875,7 @@
     "src": "v/open-drawer-named/05.mp4",
     "caption": "pull out the top left drawer",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/open-drawer-named/05_robot.mp4"
    },
@@ -911,7 +883,7 @@
     "src": "v/open-drawer-named/06.mp4",
     "caption": "pull out the top drawer",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/open-drawer-named/06_robot.mp4"
    },
@@ -919,7 +891,7 @@
     "src": "v/open-drawer-named/07.mp4",
     "caption": "pull out the second drawer from the left in the top row",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/open-drawer-named/07_robot.mp4"
    }
@@ -933,36 +905,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/open_fridge_dex3/00.mp4",
+    "src": "v/open_fridge_dex3/s00.mp4",
+    "robot": "v/open_fridge_dex3/s00_robot.mp4",
     "caption": "open the fridge",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_fridge_dex3/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_fridge_dex3/01.mp4",
+    "src": "v/open_fridge_dex3/s01.mp4",
+    "robot": "v/open_fridge_dex3/s01_robot.mp4",
     "caption": "open the fridge",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_fridge_dex3/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_fridge_dex3/02.mp4",
+    "src": "v/open_fridge_dex3/s02.mp4",
+    "robot": "v/open_fridge_dex3/s02_robot.mp4",
     "caption": "open the fridge",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_fridge_dex3/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_fridge_dex3/03.mp4",
+    "src": "v/open_fridge_dex3/s03.mp4",
+    "robot": "v/open_fridge_dex3/s03_robot.mp4",
     "caption": "open the fridge",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_fridge_dex3/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -974,36 +946,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/open_fridge_dex3x2/00.mp4",
+    "src": "v/open_fridge_dex3x2/s00.mp4",
+    "robot": "v/open_fridge_dex3x2/s00_robot.mp4",
     "caption": "open the fridge",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_fridge_dex3x2/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_fridge_dex3x2/01.mp4",
+    "src": "v/open_fridge_dex3x2/s01.mp4",
+    "robot": "v/open_fridge_dex3x2/s01_robot.mp4",
     "caption": "open the fridge",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_fridge_dex3x2/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_fridge_dex3x2/02.mp4",
+    "src": "v/open_fridge_dex3x2/s02.mp4",
+    "robot": "v/open_fridge_dex3x2/s02_robot.mp4",
     "caption": "open the fridge",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_fridge_dex3x2/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_fridge_dex3x2/03.mp4",
+    "src": "v/open_fridge_dex3x2/s03.mp4",
+    "robot": "v/open_fridge_dex3x2/s03_robot.mp4",
     "caption": "open the fridge",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_fridge_dex3x2/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -1015,36 +987,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/open_oven_dex3/00.mp4",
+    "src": "v/open_oven_dex3/s00.mp4",
+    "robot": "v/open_oven_dex3/s00_robot.mp4",
     "caption": "open the oven",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_oven_dex3/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_oven_dex3/01.mp4",
+    "src": "v/open_oven_dex3/s01.mp4",
+    "robot": "v/open_oven_dex3/s01_robot.mp4",
     "caption": "open the oven",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_oven_dex3/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_oven_dex3/02.mp4",
+    "src": "v/open_oven_dex3/s02.mp4",
+    "robot": "v/open_oven_dex3/s02_robot.mp4",
     "caption": "open the oven",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_oven_dex3/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_oven_dex3/03.mp4",
+    "src": "v/open_oven_dex3/s03.mp4",
+    "robot": "v/open_oven_dex3/s03_robot.mp4",
     "caption": "open the oven",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_oven_dex3/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -1056,36 +1028,36 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/open_cabinet_dex3/00.mp4",
+    "src": "v/open_cabinet_dex3/s00.mp4",
+    "robot": "v/open_cabinet_dex3/s00_robot.mp4",
     "caption": "open the kitchen cabinet",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_cabinet_dex3/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_cabinet_dex3/01.mp4",
+    "src": "v/open_cabinet_dex3/s01.mp4",
+    "robot": "v/open_cabinet_dex3/s01_robot.mp4",
     "caption": "open the kitchen cabinet",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_cabinet_dex3/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_cabinet_dex3/02.mp4",
+    "src": "v/open_cabinet_dex3/s02.mp4",
+    "robot": "v/open_cabinet_dex3/s02_robot.mp4",
     "caption": "open the kitchen cabinet",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_cabinet_dex3/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/open_cabinet_dex3/03.mp4",
+    "src": "v/open_cabinet_dex3/s03.mp4",
+    "robot": "v/open_cabinet_dex3/s03_robot.mp4",
     "caption": "open the kitchen cabinet",
     "meta": {
-     "edition": "pilot clip"
-    },
-    "robot": "v/open_cabinet_dex3/03_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
@@ -1097,66 +1069,74 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/either-arm/00.mp4",
-    "caption": "move the statue to the left on the dining table with your left arm",
+    "src": "v/either-arm/s00.mp4",
+    "robot": "v/either-arm/s00_robot.mp4",
+    "caption": "move the potato to the right on the counter with your left arm",
     "meta": {
-     "edition": "new render"
-    },
-    "robot": "v/either-arm/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/either-arm/01.mp4",
-    "caption": "move the bottle to the right on the counter with your right arm",
+    "src": "v/either-arm/s01.mp4",
+    "robot": "v/either-arm/s01_robot.mp4",
+    "caption": "move the cup to the right on the counter with your right arm",
     "meta": {
-     "edition": "new render"
-    },
-    "robot": "v/either-arm/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/either-arm/02.mp4",
+    "src": "v/either-arm/s02.mp4",
+    "robot": "v/either-arm/s02_robot.mp4",
+    "caption": "put the mug in the pot with your left arm",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/either-arm/s03.mp4",
+    "robot": "v/either-arm/s03_robot.mp4",
+    "caption": "put the candle in the tray with your right arm",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/either-arm/s04.mp4",
+    "robot": "v/either-arm/s04_robot.mp4",
+    "caption": "bring the towel to the side table with your left arm",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/either-arm/s05.mp4",
+    "robot": "v/either-arm/s05_robot.mp4",
+    "caption": "bring the candle to the dresser with your right arm",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/either-arm/s06.mp4",
+    "robot": "v/either-arm/s06_robot.mp4",
     "caption": "put the shaker in the bowl with your left arm",
     "meta": {
-     "edition": "new render"
-    },
-    "robot": "v/either-arm/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/either-arm/03.mp4",
-    "caption": "put the glass in the bowl with your right arm",
+    "src": "v/either-arm/s07.mp4",
+    "robot": "v/either-arm/s07_robot.mp4",
+    "caption": "put the bottle in the bowl with your right arm",
     "meta": {
-     "edition": "new render"
-    },
-    "robot": "v/either-arm/03_robot.mp4"
-   },
-   {
-    "src": "v/either-arm/04.mp4",
-    "caption": "bring the mug to the dining table with your left arm",
-    "meta": {
-     "edition": "new render"
-    },
-    "robot": "v/either-arm/04_robot.mp4"
-   },
-   {
-    "src": "v/either-arm/05.mp4",
-    "caption": "bring the bottle to the counter with your right arm",
-    "meta": {
-     "edition": "new render"
-    },
-    "robot": "v/either-arm/05_robot.mp4"
-   },
-   {
-    "src": "v/either-arm/06.mp4",
-    "caption": "put the shaker in the bowl with your left arm",
-    "meta": {
-     "edition": "new render"
-    },
-    "robot": "v/either-arm/06_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/either-arm/07.mp4",
     "caption": "pick up the cup from the floor with your left arm",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC (floor pick, no SONIC version)"
     },
     "robot": "v/either-arm/07_robot.mp4"
    },
@@ -1164,7 +1144,7 @@
     "src": "v/either-arm/08.mp4",
     "caption": "pick up the towel from the floor with your right arm",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC (floor pick, no SONIC version)"
     },
     "robot": "v/either-arm/08_robot.mp4"
    }
@@ -1181,7 +1161,7 @@
     "src": "v/arm-postures/00.mp4",
     "caption": "bring the bottle to the dining table with your right arm (carrying arm while walking: canonical)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/00_robot.mp4"
    },
@@ -1189,7 +1169,7 @@
     "src": "v/arm-postures/01.mp4",
     "caption": "bring the mug to the dining table (carrying arm while walking: canonical)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/01_robot.mp4"
    },
@@ -1197,7 +1177,7 @@
     "src": "v/arm-postures/02.mp4",
     "caption": "bring the vase to the dining table (carrying arm while walking: high)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/02_robot.mp4"
    },
@@ -1205,7 +1185,7 @@
     "src": "v/arm-postures/03.mp4",
     "caption": "bring the clock to the side table (carrying arm while walking: high)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/03_robot.mp4"
    },
@@ -1213,7 +1193,7 @@
     "src": "v/arm-postures/04.mp4",
     "caption": "bring the vase to the dresser (carrying arm while walking: low front)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/04_robot.mp4"
    },
@@ -1221,7 +1201,7 @@
     "src": "v/arm-postures/05.mp4",
     "caption": "bring the statue to the desk (carrying arm while walking: low front)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/05_robot.mp4"
    },
@@ -1229,7 +1209,7 @@
     "src": "v/arm-postures/06.mp4",
     "caption": "bring the statue to the dresser (carrying arm while walking: tucked)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/06_robot.mp4"
    },
@@ -1237,7 +1217,7 @@
     "src": "v/arm-postures/07.mp4",
     "caption": "bring the plunger to the dresser (carrying arm while walking: tucked)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/07_robot.mp4"
    },
@@ -1245,7 +1225,7 @@
     "src": "v/arm-postures/08.mp4",
     "caption": "move the statue farther away on the dresser (resting arm after the release: init)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/08_robot.mp4"
    },
@@ -1253,7 +1233,7 @@
     "src": "v/arm-postures/09.mp4",
     "caption": "move the vase to the right on the dresser with your left arm (resting arm after the release: init)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/09_robot.mp4"
    },
@@ -1261,7 +1241,7 @@
     "src": "v/arm-postures/10.mp4",
     "caption": "move the towel to the right on the side table with your right arm (resting arm after the release: default jitter)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/10_robot.mp4"
    },
@@ -1269,7 +1249,7 @@
     "src": "v/arm-postures/11.mp4",
     "caption": "put the bottle in the pot with your left arm (resting arm after the release: default jitter)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/11_robot.mp4"
    },
@@ -1277,7 +1257,7 @@
     "src": "v/arm-postures/12.mp4",
     "caption": "move the mug to the left on the side table with your right arm (resting arm after the release: hang)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/12_robot.mp4"
    },
@@ -1285,7 +1265,7 @@
     "src": "v/arm-postures/13.mp4",
     "caption": "move the shaker to the right on the counter with your left arm (resting arm after the release: hang)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/13_robot.mp4"
    },
@@ -1293,7 +1273,7 @@
     "src": "v/arm-postures/14.mp4",
     "caption": "pick up the bottle from the floor with your right arm (arm holding the object (floor pick): canonical)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/14_robot.mp4"
    },
@@ -1301,7 +1281,7 @@
     "src": "v/arm-postures/15.mp4",
     "caption": "pick up the towel from the floor with your left arm (arm holding the object (floor pick): canonical)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/15_robot.mp4"
    },
@@ -1309,7 +1289,7 @@
     "src": "v/arm-postures/16.mp4",
     "caption": "pick up the bottle from the floor with your left arm (arm holding the object (floor pick): high)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/16_robot.mp4"
    },
@@ -1317,7 +1297,7 @@
     "src": "v/arm-postures/17.mp4",
     "caption": "pick up the cup from the floor with your right arm (arm holding the object (floor pick): high)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/17_robot.mp4"
    },
@@ -1325,7 +1305,7 @@
     "src": "v/arm-postures/18.mp4",
     "caption": "pick up the cup from the floor with your right arm (arm holding the object (floor pick): low front)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/18_robot.mp4"
    },
@@ -1333,7 +1313,7 @@
     "src": "v/arm-postures/19.mp4",
     "caption": "pick up the towel from the floor (arm holding the object (floor pick): low front)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/19_robot.mp4"
    },
@@ -1341,7 +1321,7 @@
     "src": "v/arm-postures/20.mp4",
     "caption": "pick up the towel from the floor with your right arm (arm holding the object (floor pick): tucked)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/20_robot.mp4"
    },
@@ -1349,7 +1329,7 @@
     "src": "v/arm-postures/21.mp4",
     "caption": "pick up the towel from the floor with your left arm (arm holding the object (floor pick): tucked)",
     "meta": {
-     "edition": "new render"
+     "edition": "GR00T-WBC"
     },
     "robot": "v/arm-postures/21_robot.mp4"
    }

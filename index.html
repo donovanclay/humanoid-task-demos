@@ -43,7 +43,7 @@ h2.t{font-size:22px;font-weight:600;margin:0;letter-spacing:-.01em;text-wrap:bal
 .clip{background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden;min-width:0}
 .view{position:relative;overflow:hidden;background:#000;aspect-ratio:16/9;cursor:pointer}
 .view.r{aspect-ratio:384/224}
-.view video{display:block;width:100%;height:100%;object-fit:cover}
+.view video{display:block;width:100%;height:100%;object-fit:contain}
 .view.r video{width:200%;max-width:none;height:auto;position:absolute;top:0}
 .view .na{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;color:#c9d3dd;font-size:13px;background:#10171e}
 .pc{display:flex;align-items:center;gap:8px;padding:6px 10px;border-top:1px solid var(--line)}
@@ -69,7 +69,7 @@ footer{margin-top:32px;color:var(--mute);font-size:12px;max-width:80ch}
  <div><div class="pickwrap"><label for="pick">Task (tap to choose)</label><div class="sel"><select id="pick"></select></div></div><nav id="nav" aria-label="Tasks"></nav></div>
  <main id="main"></main>
 </div>
-<footer>Unitree G1 humanoid with Dex3 hands, scripted expert demonstrations in MuJoCo (molmospaces). Clips default to the third-person camera, recorded at 10 fps and played at 2x by default. The egocentric (head) and wrist views are the robot cameras of the same run. Walking tasks show the GR00T lower-body edition. Clips marked "pilot clip" come from earlier pilot runs and are being replaced by a fresh render.</footer>
+<footer>Unitree G1 humanoid with Dex3 hands, scripted expert demonstrations in MuJoCo (molmospaces). Each clip is labelled with its controller. Clips labelled SONIC use the SONIC motion planner and whole-body controller for the whole episode; their third-person view is a chase camera with walls hidden, recorded at 10 fps. Floor picks, place-on-surface, the named-drawer task and the arm-posture demos have no SONIC version yet and show GR00T-WBC clips. Clips play at 2x by default. The egocentric (head) and wrist views are the robot cameras of the same run. SONIC lower-body controller: Licensed by NVIDIA Corporation under the NVIDIA Open Model License.</footer>
 </div>
 <script>
 const SPEEDS=[1,2,4],CAMS=[['tp','Third person'],['head','Egocentric'],['wrist','Wrist']];let speed=2,cam='tp',data=[],cur=null;
