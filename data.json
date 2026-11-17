@@ -246,6 +246,288 @@
   ]
  },
  {
+  "id": "put-all-bowls",
+  "family": "Sequences",
+  "title": "Put all the bowls on a surface",
+  "description": "Long-horizon task: the robot finds three bowls around the house and carries them one at a time to the named table or dresser. Each bowl is its own subtask; the expert saves the state at every subtask boundary and, if a pick or delivery fails, restores that state and retries only that bowl. Every clip is a complete sequence with all three bowls delivered; failed attempts are not shown. Third-person view only.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/put-all-bowls/00.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/01.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/02.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/03.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/04.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/05.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/06.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/07.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/08.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/09.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/10.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/11.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/12.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/13.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/14.mp4",
+    "caption": "put all the bowls on the dining table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/15.mp4",
+    "caption": "put all the bowls on the coffee table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/16.mp4",
+    "caption": "put all the bowls on the coffee table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/17.mp4",
+    "caption": "put all the bowls on the coffee table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/18.mp4",
+    "caption": "put all the bowls on the coffee table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/19.mp4",
+    "caption": "put all the bowls on the coffee table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/20.mp4",
+    "caption": "put all the bowls on the coffee table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/21.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/22.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/23.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/24.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/25.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/26.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/27.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/28.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/29.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/30.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/31.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/32.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/33.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/34.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/35.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/36.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/37.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/put-all-bowls/38.mp4",
+    "caption": "put all the bowls on the dresser",
+    "meta": {
+     "edition": "SONIC"
+    }
+   }
+  ]
+ },
+ {
   "id": "floor-deliver",
   "family": "Floor pick",
   "title": "Floor pick and deliver",
