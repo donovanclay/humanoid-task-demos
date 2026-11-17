@@ -582,99 +582,99 @@
   "clips": [
    {
     "src": "v/place-on-surface/00.mp4",
-    "caption": "put the bottle on the plate",
+    "robot": "v/place-on-surface/00_robot.mp4",
+    "caption": "put the bottle on the tray",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/01.mp4",
-    "caption": "put the bottle on the tray",
+    "robot": "v/place-on-surface/01_robot.mp4",
+    "caption": "put the bottle on the dish",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/02.mp4",
-    "caption": "put the shaker on the box",
+    "robot": "v/place-on-surface/02_robot.mp4",
+    "caption": "put the towel on the dish",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/03.mp4",
-    "caption": "put the bottle on the dish",
+    "robot": "v/place-on-surface/03_robot.mp4",
+    "caption": "put the shaker on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/03_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/04.mp4",
-    "caption": "put the apple on the plate",
+    "robot": "v/place-on-surface/04_robot.mp4",
+    "caption": "put the mug on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/04_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/05.mp4",
-    "caption": "put the bottle on the tray",
+    "robot": "v/place-on-surface/05_robot.mp4",
+    "caption": "put the mug on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/05_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/06.mp4",
-    "caption": "put the shaker in the box",
+    "robot": "v/place-on-surface/06_robot.mp4",
+    "caption": "put the potato on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/06_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/07.mp4",
-    "caption": "put the bottle on the plate",
+    "robot": "v/place-on-surface/07_robot.mp4",
+    "caption": "put the candle on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/07_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/08.mp4",
-    "caption": "put the towel on the tray",
+    "robot": "v/place-on-surface/08_robot.mp4",
+    "caption": "put the cup on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/08_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/09.mp4",
-    "caption": "put the bottle on the plate",
+    "robot": "v/place-on-surface/09_robot.mp4",
+    "caption": "put the shaker on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/09_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/10.mp4",
-    "caption": "put the bottle on the tray",
+    "robot": "v/place-on-surface/10_robot.mp4",
+    "caption": "put the towel on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/10_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
     "src": "v/place-on-surface/11.mp4",
-    "caption": "put the bottle on the plate",
+    "robot": "v/place-on-surface/11_robot.mp4",
+    "caption": "put the shaker on the plate",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/place-on-surface/11_robot.mp4"
+     "edition": "SONIC"
+    }
    }
   ]
  },
