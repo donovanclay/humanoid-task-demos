@@ -7,33 +7,33 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/tabletop/s00.mp4",
-    "robot": "v/tabletop/s00_robot.mp4",
-    "caption": "move the bottle to the right on the counter",
+    "src": "v/tabletop/v00.mp4",
+    "robot": "v/tabletop/v00_robot.mp4",
+    "caption": "move the shaker to the right on the counter",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/tabletop/s01.mp4",
-    "robot": "v/tabletop/s01_robot.mp4",
-    "caption": "move the vase to the left on the dining table",
+    "src": "v/tabletop/v01.mp4",
+    "robot": "v/tabletop/v01_robot.mp4",
+    "caption": "move the bottle farther away on the counter",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/tabletop/s02.mp4",
-    "robot": "v/tabletop/s02_robot.mp4",
-    "caption": "move the bowl to the right on the dining table",
+    "src": "v/tabletop/v02.mp4",
+    "robot": "v/tabletop/v02_robot.mp4",
+    "caption": "move the goblet to the right on the counter",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/tabletop/s03.mp4",
-    "robot": "v/tabletop/s03_robot.mp4",
-    "caption": "move the bottle to the right on the counter",
+    "src": "v/tabletop/v03.mp4",
+    "robot": "v/tabletop/v03_robot.mp4",
+    "caption": "move the goblet to the right on the counter",
     "meta": {
      "edition": "SONIC"
     }
@@ -48,33 +48,33 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/tabletop-containers/s00.mp4",
-    "robot": "v/tabletop-containers/s00_robot.mp4",
+    "src": "v/tabletop-containers/v00.mp4",
+    "robot": "v/tabletop-containers/v00_robot.mp4",
     "caption": "put the shaker in the bowl",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/tabletop-containers/s01.mp4",
-    "robot": "v/tabletop-containers/s01_robot.mp4",
-    "caption": "put the bottle in the pot",
+    "src": "v/tabletop-containers/v01.mp4",
+    "robot": "v/tabletop-containers/v01_robot.mp4",
+    "caption": "put the shaker in the ceramic bowl",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/tabletop-containers/s02.mp4",
-    "robot": "v/tabletop-containers/s02_robot.mp4",
-    "caption": "put the statue in the pot",
+    "src": "v/tabletop-containers/v02.mp4",
+    "robot": "v/tabletop-containers/v02_robot.mp4",
+    "caption": "put the bottle in the bowl",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/tabletop-containers/s03.mp4",
-    "robot": "v/tabletop-containers/s03_robot.mp4",
-    "caption": "put the towel in the bowl",
+    "src": "v/tabletop-containers/v03.mp4",
+    "robot": "v/tabletop-containers/v03_robot.mp4",
+    "caption": "put the cup in the pot",
     "meta": {
      "edition": "SONIC"
     }
@@ -89,33 +89,33 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/walk/s00.mp4",
-    "robot": "v/walk/s00_robot.mp4",
-    "caption": "bring the mug to the counter",
+    "src": "v/walk/v00.mp4",
+    "robot": "v/walk/v00_robot.mp4",
+    "caption": "bring the mug to the dining table",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/walk/s01.mp4",
-    "robot": "v/walk/s01_robot.mp4",
-    "caption": "bring the bottle to the counter",
+    "src": "v/walk/v01.mp4",
+    "robot": "v/walk/v01_robot.mp4",
+    "caption": "bring the roll to the side table",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/walk/s02.mp4",
-    "robot": "v/walk/s02_robot.mp4",
-    "caption": "bring the candle to the dining table",
+    "src": "v/walk/v02.mp4",
+    "robot": "v/walk/v02_robot.mp4",
+    "caption": "bring the mug to the dining table",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/walk/s03.mp4",
-    "robot": "v/walk/s03_robot.mp4",
-    "caption": "bring the shaker to the dining table",
+    "src": "v/walk/v03.mp4",
+    "robot": "v/walk/v03_robot.mp4",
+    "caption": "bring the pepper to the dining table",
     "meta": {
      "edition": "SONIC"
     }
@@ -130,33 +130,33 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/walk-containers/s00.mp4",
-    "robot": "v/walk-containers/s00_robot.mp4",
+    "src": "v/walk-containers/v00.mp4",
+    "robot": "v/walk-containers/v00_robot.mp4",
+    "caption": "put the potato in the bowl",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/walk-containers/v01.mp4",
+    "robot": "v/walk-containers/v01_robot.mp4",
+    "caption": "put the vase in the pot",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/walk-containers/v02.mp4",
+    "robot": "v/walk-containers/v02_robot.mp4",
+    "caption": "put the towel in the decorative bowl",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/walk-containers/v03.mp4",
+    "robot": "v/walk-containers/v03_robot.mp4",
     "caption": "put the shaker in the bowl",
-    "meta": {
-     "edition": "SONIC"
-    }
-   },
-   {
-    "src": "v/walk-containers/s01.mp4",
-    "robot": "v/walk-containers/s01_robot.mp4",
-    "caption": "put the candle in the ceramic bowl",
-    "meta": {
-     "edition": "SONIC"
-    }
-   },
-   {
-    "src": "v/walk-containers/s02.mp4",
-    "robot": "v/walk-containers/s02_robot.mp4",
-    "caption": "put the bottle in the bowl",
-    "meta": {
-     "edition": "SONIC"
-    }
-   },
-   {
-    "src": "v/walk-containers/s03.mp4",
-    "robot": "v/walk-containers/s03_robot.mp4",
-    "caption": "put the towel in the clay dish",
     "meta": {
      "edition": "SONIC"
     }
@@ -171,33 +171,33 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/walk-perturb/s00.mp4",
-    "robot": "v/walk-perturb/s00_robot.mp4",
-    "caption": "bring the candle to the dining table",
-    "meta": {
-     "edition": "SONIC"
-    }
-   },
-   {
-    "src": "v/walk-perturb/s01.mp4",
-    "robot": "v/walk-perturb/s01_robot.mp4",
+    "src": "v/walk-perturb/v00.mp4",
+    "robot": "v/walk-perturb/v00_robot.mp4",
     "caption": "bring the bottle to the dining table",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/walk-perturb/s02.mp4",
-    "robot": "v/walk-perturb/s02_robot.mp4",
-    "caption": "bring the pepper to the dining table",
+    "src": "v/walk-perturb/v01.mp4",
+    "robot": "v/walk-perturb/v01_robot.mp4",
+    "caption": "put the shaker in the bowl",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/walk-perturb/s03.mp4",
-    "robot": "v/walk-perturb/s03_robot.mp4",
-    "caption": "put the shaker in the bowl",
+    "src": "v/walk-perturb/v02.mp4",
+    "robot": "v/walk-perturb/v02_robot.mp4",
+    "caption": "bring the towel to the side table",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/walk-perturb/v03.mp4",
+    "robot": "v/walk-perturb/v03_robot.mp4",
+    "caption": "bring the shaker to the dining table",
     "meta": {
      "edition": "SONIC"
     }
@@ -212,33 +212,33 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/walk-clutter/s00.mp4",
-    "robot": "v/walk-clutter/s00_robot.mp4",
-    "caption": "bring the pepper shaker on the right to the dining table",
+    "src": "v/walk-clutter/v00.mp4",
+    "robot": "v/walk-clutter/v00_robot.mp4",
+    "caption": "bring the yellow plastic bottle to the dresser",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/walk-clutter/s01.mp4",
-    "robot": "v/walk-clutter/s01_robot.mp4",
-    "caption": "bring the candle on the side table to the dining table",
+    "src": "v/walk-clutter/v01.mp4",
+    "robot": "v/walk-clutter/v01_robot.mp4",
+    "caption": "bring the bottle on the left side of the counter to the dining table",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/walk-clutter/s02.mp4",
-    "robot": "v/walk-clutter/s02_robot.mp4",
-    "caption": "bring the goblet to the counter",
+    "src": "v/walk-clutter/v02.mp4",
+    "robot": "v/walk-clutter/v02_robot.mp4",
+    "caption": "put the transparent soap bottle in the pot",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/walk-clutter/s03.mp4",
-    "robot": "v/walk-clutter/s03_robot.mp4",
-    "caption": "bring the mug on the desk to the dining table",
+    "src": "v/walk-clutter/v03.mp4",
+    "robot": "v/walk-clutter/v03_robot.mp4",
+    "caption": "put the white roll in the pot",
     "meta": {
      "edition": "SONIC"
     }
@@ -1351,17 +1351,17 @@
   "status": "ready",
   "clips": [
    {
-    "src": "v/either-arm/s00.mp4",
-    "robot": "v/either-arm/s00_robot.mp4",
-    "caption": "move the potato to the right on the counter with your left arm",
+    "src": "v/either-arm/v00.mp4",
+    "robot": "v/either-arm/v00_robot.mp4",
+    "caption": "move the towel to the right on the counter with your left arm",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/either-arm/s01.mp4",
-    "robot": "v/either-arm/s01_robot.mp4",
-    "caption": "move the cup to the right on the counter with your right arm",
+    "src": "v/either-arm/v01.mp4",
+    "robot": "v/either-arm/v01_robot.mp4",
+    "caption": "move the bottle to the right on the counter with your right arm",
     "meta": {
      "edition": "SONIC"
     }
@@ -1383,33 +1383,33 @@
     }
    },
    {
-    "src": "v/either-arm/s04.mp4",
-    "robot": "v/either-arm/s04_robot.mp4",
-    "caption": "bring the towel to the side table with your left arm",
+    "src": "v/either-arm/v04.mp4",
+    "robot": "v/either-arm/v04_robot.mp4",
+    "caption": "bring the candle to the dining table with your left arm",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/either-arm/s05.mp4",
-    "robot": "v/either-arm/s05_robot.mp4",
-    "caption": "bring the candle to the dresser with your right arm",
+    "src": "v/either-arm/v05.mp4",
+    "robot": "v/either-arm/v05_robot.mp4",
+    "caption": "bring the vase to the side table with your right arm",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/either-arm/s06.mp4",
-    "robot": "v/either-arm/s06_robot.mp4",
-    "caption": "put the shaker in the bowl with your left arm",
+    "src": "v/either-arm/v06.mp4",
+    "robot": "v/either-arm/v06_robot.mp4",
+    "caption": "put the mug in the pot with your left arm",
     "meta": {
      "edition": "SONIC"
     }
    },
    {
-    "src": "v/either-arm/s07.mp4",
-    "robot": "v/either-arm/s07_robot.mp4",
-    "caption": "put the bottle in the bowl with your right arm",
+    "src": "v/either-arm/v07.mp4",
+    "robot": "v/either-arm/v07_robot.mp4",
+    "caption": "put the shaker in the tray with your right arm",
     "meta": {
      "edition": "SONIC"
     }
