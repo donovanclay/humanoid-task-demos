@@ -1616,5 +1616,98 @@
     "robot": "v/arm-postures/21_robot.mp4"
    }
   ]
+ },
+ {
+  "id": "two-hand-lift",
+  "family": "Two hands",
+  "title": "Lift with both hands",
+  "description": "The robot walks to a basketball or box on a table, presses its palms against both sides, lifts it 20 cm and holds it. The whole body, arms included, is driven by the SONIC controller.",
+  "status": "ready",
+  "clips": [
+   {
+    "src": "v/two-hand-lift/s00.mp4",
+    "caption": "use both hands to pick up the basketball.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s01.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s02.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s03.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s04.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s05.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s06.mp4",
+    "caption": "use both hands to pick up the basketball.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s07.mp4",
+    "caption": "use both hands to pick up the basketball.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s08.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s09.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s10.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/two-hand-lift/s11.mp4",
+    "caption": "use both hands to pick up the box.",
+    "meta": {
+     "edition": "SONIC"
+    }
+   }
+  ]
  }
 ]
