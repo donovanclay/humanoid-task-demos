@@ -613,40 +613,92 @@
   "id": "floor-open",
   "family": "Floor pick",
   "title": "Floor pick, open floor",
-  "description": "The robot picks an object lying on open floor, away from walls.",
+  "description": "The robot walks to an object lying on open floor, squats deeply to the floor under the SONIC controller, reaches down with a decoder-driven arm, picks it up and stands. The whole body, arms included, is driven by SONIC.",
   "status": "ready",
   "clips": [
    {
-    "src": "v/floor-open/00.mp4",
-    "caption": "pick up the cup from the floor",
+    "src": "v/floor-open/s00.mp4",
+    "caption": "pick up the bottle from the floor",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/floor-open/00_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/floor-open/01.mp4",
+    "src": "v/floor-open/s01.mp4",
     "caption": "pick up the cup from the floor",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/floor-open/01_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/floor-open/02.mp4",
+    "src": "v/floor-open/s02.mp4",
     "caption": "pick up the towel from the floor",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/floor-open/02_robot.mp4"
+     "edition": "SONIC"
+    }
    },
    {
-    "src": "v/floor-open/03.mp4",
+    "src": "v/floor-open/s03.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/floor-open/s04.mp4",
     "caption": "pick up the cup from the floor",
     "meta": {
-     "edition": "GR00T-WBC"
-    },
-    "robot": "v/floor-open/03_robot.mp4"
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/floor-open/s05.mp4",
+    "caption": "pick up the towel from the floor",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/floor-open/s06.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/floor-open/s07.mp4",
+    "caption": "pick up the cup from the floor",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/floor-open/s08.mp4",
+    "caption": "pick up the towel from the floor",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/floor-open/s09.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/floor-open/s10.mp4",
+    "caption": "pick up the towel from the floor",
+    "meta": {
+     "edition": "SONIC"
+    }
+   },
+   {
+    "src": "v/floor-open/s11.mp4",
+    "caption": "pick up the bottle from the floor",
+    "meta": {
+     "edition": "SONIC"
+    }
    }
   ]
  },
